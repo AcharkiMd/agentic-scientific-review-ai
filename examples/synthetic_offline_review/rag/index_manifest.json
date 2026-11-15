@@ -1,0 +1,6 @@
+{
+  "mode": "demo",
+  "model": "hashing-256-no-semantic-understanding",
+  "chunks": 3,
+  "representation": "demo lexical hashing (not semantic)"
+}

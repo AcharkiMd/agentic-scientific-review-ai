@@ -1,0 +1,23 @@
+{
+  "run_id": "f26236e3aa79",
+  "mode": "demo",
+  "runtime": "offline-sequential-demo-fallback",
+  "files_sha256": {
+    "systematic_review.md": "381d7f599b19fde849f0ad0ab7cef6d03902e3de81720a28a42ced7413d8dea9",
+    "protocol.json": "9f6c676e1a9abde8da4d8975af79ebc770947c64e1b9f1e6eb707e0ebcfe04e2",
+    "search_log.json": "b0d8e27522cf621ca8797c1e98f17169b7bcb9b4544e4a443f3198eb4214323b",
+    "papers.json": "24a9e20939014b0a64c702ba03c48b052b59a57112e90454458a4b6e35c9f83d",
+    "title_screening.csv": "7a1512efdceb66f5d93577345ba97e8fa28d0e5a5a510bd0b6dcc5de81cfa13f",
+    "fulltext_screening.csv": "75f1409b04bf82da177cf605ff7202f972be62678591ef7fd54bd1214948b986",
+    "evidence_table.csv": "951530425f2bd5d20c052cb772101083a1b7006569247d099236a8a66d4cc501",
+    "human_gold_template.csv": "86d90849e9e43bfca4f3a144b59fef9626eeaa00cc87a34c09cd69c30df5a771",
+    "evidence_map.json": "67aec590c3ed69a43d8272fa7bffee3f29fd01ad723cee608b942eabcd4822ff",
+    "references.bib": "70f32a8acb181c64be4148786951301a542ef2a78e89ebefa0333cfc439a64db",
+    "prisma_counts.json": "ab58d85eecb1657f02fd975304c550149bbd9acb72b513db0cbeeb7eb0adeeca",
+    "prisma_flow.svg": "c1b605b5a07483ad1ca0bb8c0d43917c61963f639ac02f2f558b58e288839b11",
+    "qa.json": "8caa8e326855ab61c40115bda3045aa08c2e7ed88fd9b7996feae07a8c655f21",
+    "rag_evidence.json": "b943846a0316a37d387249da7432ffaa1b2fa0fdfc44632570bd9afb985a9fb4",
+    "audit_trail.json": "9cc49a4858d561ca67617e49edab9cbc5dd8b794d41589db97d3b7eb9cece118",
+    "state.json": "c1e6615c506883fbe382c0c9bc49e430b0d2973f72bb86acd01da7618bb33e06"
+  }
+}

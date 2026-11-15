@@ -1,0 +1,20 @@
+{
+  "checks": {
+    "protocol_present": true,
+    "search_logged": true,
+    "title_screen_complete": true,
+    "extractions_match_included": true,
+    "evidence_quotes_verbatim": true,
+    "prisma_screened_consistent": true,
+    "prisma_fulltext_consistent": true,
+    "all_themes_cite_included": true
+  },
+  "passed": 8,
+  "total": 8,
+  "caveats": [
+    "SYNTHETIC FIXTURES ONLY; no actual scientific articles, Gemini, or academic APIs were used.",
+    "Some full texts unavailable; they were NOT considered included full-text studies.",
+    "Automated QA and generic appraisal do NOT establish scientific validity or PRISMA compliance."
+  ],
+  "needs_human_validation": true
+}

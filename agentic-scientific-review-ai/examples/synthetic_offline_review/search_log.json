@@ -1,0 +1,15 @@
+[
+  {
+    "source": "synthetic_fixture",
+    "query": "example topic",
+    "records": 7,
+    "status": "ok"
+  },
+  {
+    "source": "deduplication",
+    "duplicates": 1,
+    "unique_before_limit": 6,
+    "max_papers": 6,
+    "not_screened_due_to_limit": 0
+  }
+]

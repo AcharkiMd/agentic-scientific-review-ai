@@ -1,0 +1,7 @@
+paper_id,title,human_label
+SYN-001,Lakehouse table formats and query planning in large data lakes,
+SYN-002,Distributed lakehouse query execution using columnar storage,
+SYN-003,Adaptive Spark and Iceberg optimization for scalable lakehouse systems,
+SYN-004,Sentiment classification of short social-media posts,
+SYN-005,Protein crystallography and laboratory measurements,
+SYN-006,Cloud lakehouse governance for large analytical platforms,

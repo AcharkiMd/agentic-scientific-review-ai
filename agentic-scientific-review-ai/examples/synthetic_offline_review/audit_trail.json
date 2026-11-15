@@ -1,0 +1,190 @@
+[
+  {
+    "event_id": 40,
+    "run_id": "f26236e3aa79",
+    "stage": "create",
+    "level": "info",
+    "payload_json": "{\"topic\": \"Scalable lakehouse architectures for big data analytics\", \"mode\": \"demo\"}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "topic": "Scalable lakehouse architectures for big data analytics",
+      "mode": "demo"
+    }
+  },
+  {
+    "event_id": 41,
+    "run_id": "f26236e3aa79",
+    "stage": "coordinator_protocol",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"protocol\"], \"duration_seconds\": 0.002}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "protocol"
+      ],
+      "duration_seconds": 0.002
+    }
+  },
+  {
+    "event_id": 42,
+    "run_id": "f26236e3aa79",
+    "stage": "search_strategy",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"queries\"], \"duration_seconds\": 0.002}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "queries"
+      ],
+      "duration_seconds": 0.002
+    }
+  },
+  {
+    "event_id": 43,
+    "run_id": "f26236e3aa79",
+    "stage": "search_provenance",
+    "level": "info",
+    "payload_json": "{\"events\": [{\"source\": \"synthetic_fixture\", \"query\": \"example topic\", \"records\": 7, \"status\": \"ok\"}, {\"source\": \"deduplication\", \"duplicates\": 1, \"unique_before_limit\": 6, \"max_papers\": 6, \"not_screened_due_to_limit\": 0}]}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "events": [
+        {
+          "source": "synthetic_fixture",
+          "query": "example topic",
+          "records": 7,
+          "status": "ok"
+        },
+        {
+          "source": "deduplication",
+          "duplicates": 1,
+          "unique_before_limit": 6,
+          "max_papers": 6,
+          "not_screened_due_to_limit": 0
+        }
+      ]
+    }
+  },
+  {
+    "event_id": 44,
+    "run_id": "f26236e3aa79",
+    "stage": "retrieval",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"papers\", \"search_events\"], \"duration_seconds\": 0.004}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "papers",
+        "search_events"
+      ],
+      "duration_seconds": 0.004
+    }
+  },
+  {
+    "event_id": 45,
+    "run_id": "f26236e3aa79",
+    "stage": "dual_title_screening",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"title_screen\"], \"duration_seconds\": 0.003}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "title_screen"
+      ],
+      "duration_seconds": 0.003
+    }
+  },
+  {
+    "event_id": 46,
+    "run_id": "f26236e3aa79",
+    "stage": "human_approval",
+    "level": "info",
+    "payload_json": "{\"protocol_version\": \"1.0-demo\"}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "protocol_version": "1.0-demo"
+    }
+  },
+  {
+    "event_id": 47,
+    "run_id": "f26236e3aa79",
+    "stage": "fulltext_retrieval",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"papers\"], \"duration_seconds\": 0.002}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "papers"
+      ],
+      "duration_seconds": 0.002
+    }
+  },
+  {
+    "event_id": 48,
+    "run_id": "f26236e3aa79",
+    "stage": "dual_fulltext_screening",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"fulltext_screen\"], \"duration_seconds\": 0.002}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "fulltext_screen"
+      ],
+      "duration_seconds": 0.002
+    }
+  },
+  {
+    "event_id": 49,
+    "run_id": "f26236e3aa79",
+    "stage": "evidence_extraction_appraisal",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"extractions\"], \"duration_seconds\": 0.003}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "extractions"
+      ],
+      "duration_seconds": 0.003
+    }
+  },
+  {
+    "event_id": 50,
+    "run_id": "f26236e3aa79",
+    "stage": "hybrid_rag_synthesis",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"rag_hits\", \"synthesis\"], \"duration_seconds\": 0.01}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "rag_hits",
+        "synthesis"
+      ],
+      "duration_seconds": 0.01
+    }
+  },
+  {
+    "event_id": 51,
+    "run_id": "f26236e3aa79",
+    "stage": "prisma_and_critic",
+    "level": "info",
+    "payload_json": "{\"result_keys\": [\"prisma\", \"quality_assurance\"], \"duration_seconds\": 0.009}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "result_keys": [
+        "prisma",
+        "quality_assurance"
+      ],
+      "duration_seconds": 0.009
+    }
+  },
+  {
+    "event_id": 52,
+    "run_id": "f26236e3aa79",
+    "stage": "completion",
+    "level": "info",
+    "payload_json": "{\"elapsed_seconds\": 0.06}",
+    "created_at": "2026-11-15T15:03:33+00:00",
+    "payload": {
+      "elapsed_seconds": 0.06
+    }
+  }
+]
